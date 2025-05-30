@@ -1,0 +1,14 @@
+name: Icona Auto Build
+
+on:
+  pull_request:
+    paths:
+      - 'icons/**/*.tsx'
+
+jobs:
+  build-icons:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Log icon file changes
+        run: echo "Icons updated. Run your build script here."

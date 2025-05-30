@@ -1,0 +1,6 @@
+{
+  "source": "figma",
+  "outputDir": "icons",
+  "componentPrefix": "Icon",
+  "template": "react"
+}
